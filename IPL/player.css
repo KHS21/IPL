@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Lora:ital@1&family=PT+Sans:ital@1&family=Varela+Round&display=swap');
+
+*{ 
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.logo{
+    width: 150px;
+    left: 0;
+    height: 95px;
+    background-color: #ccc;
+}
+
+.headBar{
+    background-color: #4F91CD;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 92px;
+    
+}
+ 
+
+body{
+    background-color: #19388A;
+}
+
+.ipl{
+    margin-left: 50px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ccc;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 15%;
+    width: 100%;
+}
+
+.champ img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.champInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 56%;
+    background-color: #4F91CD;
+    color: white;
+    margin-left: 219px;
+    height: 496px;
+    margin-top: 2px;
+    border-radius: 20px 100px 20px 20px;
+}
+
+.champInfo div{
+    margin-bottom: 5%;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.champInfo div:hover{
+    transform: scale(1.02);
+}

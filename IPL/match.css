@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Lora:ital@1&family=PT+Sans:ital@1&family=Varela+Round&display=swap');
+
+*{ 
+    color: #ccc;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.logo{
+    width: 150px;
+    left: 0;
+    background-color: #ccc;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #4F91CD;
+}
+
+.headBar{
+    display: flex;
+    
+    align-items: center;
+    list-style-type: none;
+}
+
+.home{
+    display: flex;
+    margin-left: 180px;
+    justify-content: space-between;
+    width: 112px;
+    color: #ccc;
+    
+}
+
+.home span{
+    color: #ccc;
+    font-weight: 600;
+}
+
+.home span:hover{
+    transform: scale(1.02);
+    color: #19388A;
+}
+
+.create{
+    display: flex;
+    justify-content: space-between;
+    width: 275px; 
+    margin-left: 260px;
+}
+
+.create span{
+    color: #ccc;
+    font-weight: 600;
+}
+
+.create span:hover{
+    transform: scale(1.02);
+    color: #19388A;
+}
+    
+
+.searchBar{
+    width: 400px;
+    margin-left: 235px;
+}
+
+#searchBoxInput {
+    width: 80%;
+    padding: 5px 0px;
+    color: black;
+    background-color: rgb(245, 242, 242);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.searchBar{
+    width: 500px;
+    margin-left: 235px;;
+    justify-content: left;
+    border-radius: 17px;
+    height: 0%;
+    width: 15%;
+    background-color: rgb(245, 242, 242);
+}
+
+.searchBar i {
+    color:  #4F91CD;
+    cursor: pointer;
+    font-size: 15px;
+    padding-top: 4px;
+    margin: 0px 5px 0px 10px;
+}
+
+.cup{
+    width: 100%;
+    height: 500px;
+
+}
+
+.divide{
+    text-align: center;
+    font-size: 80px;
+    height: 80px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #4F91CD;
+}
+
+
+
+.team{
+    margin: 60px ;
+}
+
+.cardList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 62px;
+
+}
+
+.cards{
+    border: 2px solid white;
+    border-radius: 0px 30px 0 0;
+    width: 280px;
+    height: 380px;
+    cursor: pointer;
+}
+
+.cardName{
+    border: 2px solid white;
+    border-radius: 0px 0px 30px 30px;
+    width: 280px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -6px;
+    cursor: pointer;
+}
+
+.cardName div{
+    color: white;
+}
+
+footer{
+    background-color: #4F91CD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+footer span{
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+footer span:hover{
+    transform: scale(1.02);
+    color: #19388A;
+}
+
+figure:hover{
+    transform: scale(1.05);
+    border: 2px solid #4F91CD;
+    border-radius: 0 30px 30px 30px;
+}
+
